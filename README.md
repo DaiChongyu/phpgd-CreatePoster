@@ -11,7 +11,7 @@
 > * 5.下载或查看
 
 **最后的效果：**
-![enter description here](https://github.com/DaiChongyu/phpgd-CreatePoster/demo/success.png)
+![enter description here](https://raw.githubusercontent.com/daichongyu/phpgd-CreatePoster/master/demo/success.png)
 
 ## 主要方法
 
