@@ -1,0 +1,24 @@
+{
+    "name": "daichongweb/create_poster",
+    "description": "php gd",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daichongweb",
+            "email": "daichongweb@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DaiChongWeb\\gb\\": "src/"
+        },
+        "files": [
+            "src/gb.php"
+        ]
+    }
+}

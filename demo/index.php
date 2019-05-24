@@ -1,6 +1,6 @@
 <?php
 use \CreatePoster\CreateHelper;
-require '../gd.php';
+require '../src/gd.php';
 
 $typeface = "D:\\PHPTutorial\\WWW\\create_img\\demo\\simkai.ttf";
 $mainUrl = 'bg.png';

@@ -1,4 +1,4 @@
 <?php
 use \CreatePoster\CreateHelper;
-require './gd.php';
+require './src/gd.php';
 CreateHelper::start();
