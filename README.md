@@ -37,3 +37,5 @@ use \CreatePoster\CreateHelper;
 require './gd.php';
 CreateHelper::start();
 ```
+## 更新
+> * 1.load增加下载地址参数，可传入参数配置下载地址。

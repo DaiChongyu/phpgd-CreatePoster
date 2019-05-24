@@ -346,17 +346,18 @@ class CreateHelper
      * [load 下载图片]
      * @author DaiChong
      * @DateTime 2019-05-23
-     * @param    resource   $img  图片源
-     * @param    url        $name 主图地址
+     * @param    resource   $img    图片源
+     * @param    url        $name   主图地址
+     * @param    url        $path   下载地址
      * @return
      */
-    public static function load($img, $name)
+    public static function load($img, $name,$path='./')
     {
 
         $info = self::getInfo($name);
 
         $ext = pathinfo($name, PATHINFO_EXTENSION);
-        $file_path = './' . date('Y-m-d');
+        $file_path = $path . date('Y-m-d');
 
         if (!file_exists($file_path)) {
             mkdir($file_path, 0777, true);
